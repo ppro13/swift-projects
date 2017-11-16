@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="PickerView" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Selecione a cor de fundo" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E4a-Fv-Mkf">
+                                <rect key="frame" x="0.0" y="40" width="375" height="32.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                                <color key="textColor" red="0.32369780539999998" green="0.1063579395" blue="0.574860394" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <pickerView alpha="0.90000000000000002" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MRs-fc-am9">
+                                <rect key="frame" x="0.0" y="87" width="375" height="284"/>
+                            </pickerView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="MRs-fc-am9" firstAttribute="top" secondItem="E4a-Fv-Mkf" secondAttribute="bottom" constant="8" id="BL7-cX-fer"/>
+                            <constraint firstItem="E4a-Fv-Mkf" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Cgy-Li-J7B"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="E4a-Fv-Mkf" secondAttribute="trailing" id="FHe-0G-gsR"/>
+                            <constraint firstItem="MRs-fc-am9" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="No4-lO-hjQ"/>
+                            <constraint firstItem="E4a-Fv-Mkf" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="VBb-3E-Erq"/>
+                            <constraint firstItem="MRs-fc-am9" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="fs1-V7-cae"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="MRs-fc-am9" secondAttribute="bottom" constant="296" id="o8f-Zy-UTR"/>
+                            <constraint firstItem="MRs-fc-am9" firstAttribute="top" secondItem="E4a-Fv-Mkf" secondAttribute="bottom" constant="14.5" id="wGU-51-q2G"/>
+                            <constraint firstItem="E4a-Fv-Mkf" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="xfE-W0-q4U"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="backgroundView" destination="8bC-Xf-vdC" id="UQ7-T5-ozb"/>
+                        <outlet property="pickerView" destination="MRs-fc-am9" id="4R8-1W-Wp8"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-79.200000000000003" y="133.5832083958021"/>
+        </scene>
+    </scenes>
+</document>

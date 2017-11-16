@@ -1,0 +1,42 @@
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch master
+# Your branch is ahead of 'origin/master' by 2 commits.
+#   (use "git push" to publish your local commits)
+#
+# Changes to be committed:
+#	modified:   .DS_Store
+#	new file:   Playground/.DS_Store
+#	new file:   Playground/Aula1-Coursera.playground/Contents.swift
+#	new file:   Playground/Aula1-Coursera.playground/contents.xcplayground
+#	new file:   Playground/Aula1-Coursera.playground/playground.xcworkspace/contents.xcworkspacedata
+#	new file:   Playground/Aula1-Coursera.playground/playground.xcworkspace/xcuserdata/pedropaulo.xcuserdatad/UserInterfaceState.xcuserstate
+#	new file:   PrimeiroProjeto/MyPlayground.playground/Contents.swift
+#	new file:   PrimeiroProjeto/MyPlayground.playground/contents.xcplayground
+#	new file:   PrimeiroProjeto/MyPlayground.playground/timeline.xctimeline
+#	new file:   PrimeiroProjeto/PrimeiroProjeto.xcodeproj/project.pbxproj
+#	new file:   PrimeiroProjeto/PrimeiroProjeto.xcodeproj/project.xcworkspace/contents.xcworkspacedata
+#	new file:   PrimeiroProjeto/PrimeiroProjeto.xcodeproj/project.xcworkspace/xcuserdata/pedropaulo.xcuserdatad/UserInterfaceState.xcuserstate
+#	new file:   PrimeiroProjeto/PrimeiroProjeto.xcodeproj/xcuserdata/pedropaulo.xcuserdatad/xcschemes/xcschememanagement.plist
+#	new file:   PrimeiroProjeto/PrimeiroProjeto/AppDelegate.swift
+#	new file:   PrimeiroProjeto/PrimeiroProjeto/Assets.xcassets/AppIcon.appiconset/Contents.json
+#	new file:   PrimeiroProjeto/PrimeiroProjeto/Base.lproj/LaunchScreen.storyboard
+#	new file:   PrimeiroProjeto/PrimeiroProjeto/Base.lproj/Main.storyboard
+#	new file:   PrimeiroProjeto/PrimeiroProjeto/Info.plist
+#	new file:   PrimeiroProjeto/PrimeiroProjeto/ViewController.swift
+#	new file:   PrimeiroProjeto/PrimeiroProjetoTests/Info.plist
+#	new file:   PrimeiroProjeto/PrimeiroProjetoTests/PrimeiroProjetoTests.swift
+#	new file:   PrimeiroProjeto/PrimeiroProjetoUITests/Info.plist
+#	new file:   PrimeiroProjeto/PrimeiroProjetoUITests/PrimeiroProjetoUITests.swift
+#	modified:   eggplant-brownie/eggplant-brownie.xcodeproj/project.xcworkspace/xcuserdata/pedropaulo.xcuserdatad/UserInterfaceState.xcuserstate
+#	modified:   eggplant-brownie/eggplant-brownie/viewControllers/MealsTableViewController.swift
+#
+# Changes not staged for commit:
+#	modified:   PrimeiroProjeto/MyPlayground.playground/Contents.swift
+#	deleted:    PrimeiroProjeto/MyPlayground.playground/timeline.xctimeline
+#	modified:   PrimeiroProjeto/PrimeiroProjeto.xcodeproj/project.xcworkspace/xcuserdata/pedropaulo.xcuserdatad/UserInterfaceState.xcuserstate
+#	modified:   PrimeiroProjeto/PrimeiroProjeto/Base.lproj/LaunchScreen.storyboard
+#	modified:   PrimeiroProjeto/PrimeiroProjeto/Base.lproj/Main.storyboard
+#
